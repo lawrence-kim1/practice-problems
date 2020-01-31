@@ -1,7 +1,7 @@
 function stars(num) {
-  var star = '';
   var diff = num - 1;
   for (var i = 1; i <= num; i++) {
+    var star = '';
     for (var j = 1; j <= ((2 * i) - 1); j++) {
       star += '*';
     }
@@ -10,7 +10,6 @@ function stars(num) {
       star = ' ' + star;
     }
     console.log(star);
-    star = '';
     diff--;
   }
 }
