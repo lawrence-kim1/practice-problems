@@ -1,11 +1,17 @@
 function stars(num) {
   var star = '';
+  var diff = (((2 * num) - 1) / 2) - 1;
   for (var i = 1; i <= num; i++) {
     for (var j = 1; j <= ((2 * i) - 1); j++) {
-      star = star + '*';
+      star += '*';
+    }
+    for (var k = 0; k < diff; k++) {
+      star += ' ';
+      star = ' ' + star;
     }
     console.log(star);
     star = '';
+    diff--;
   }
 }
 // Initial *'s, but no spaces
