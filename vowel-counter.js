@@ -12,9 +12,10 @@ countVowels("Prediction") //➞ 4
 // All test cases are one word and only contain letters.
 
 function countVowels(str) {
-  let re = /aeiou/;
+  let re = /[aeiou]/g;
   let newStr = str.toLowerCase();
-  return newStr.match(re);
+  let counter = newStr.match(re);
+  return counter.length;
 }
 
 // Make an empty counter
