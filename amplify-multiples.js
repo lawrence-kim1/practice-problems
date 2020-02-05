@@ -37,7 +37,7 @@ function amplify(num) {
 }
 
 // Make a blank array with length based on the input
-// Assign each index to the index + 1
+// Assign each index to a value of index + 1
 // Check if value in index is divisible by 4
 // If true, multiply by 10
 // Return the array
