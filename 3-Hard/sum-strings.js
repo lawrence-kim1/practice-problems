@@ -4,6 +4,7 @@
 // Compare the sum of the dollar amounts in the array to the total amount string.
 // If the sum is greater than the total amount string, return True, else return False.
 
+getSum(['$10', '$4'], 15) //➞ False
 function getSum(arr, total) {
   const amounts = [];
   let counter = 0;

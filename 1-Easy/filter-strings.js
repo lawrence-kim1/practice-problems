@@ -16,3 +16,10 @@ function filterArray(arr) {
   }
   return newArr;
 }
+
+/** Pseudo Code
+ * Create a new array set to a blank array
+ * Iterate over each value in the input arr
+ *  If the value of the index is a number, add it to the array newArr
+ * Return the new array, newArr
+ */
