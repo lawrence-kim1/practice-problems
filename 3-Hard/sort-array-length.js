@@ -36,3 +36,16 @@ function sortByLength(arr) {
   }
   return newArr;
 }
+/** Pseudo Code
+ * Create a new blank array, newArr
+ * Iterate over each value in the array
+ *  Set a new variable to the string's length at the index of the array being iterated
+ *  Initially push the first value to the array
+ *  Otherwise, check if the string's length is longer than the length of the string before it in the array
+ *  If it is not longer, go through another loop
+ *    Create a loop that checks from the end of newArr
+ *    Check if the current string's length is longer than the length of the length of the string at each index
+ *    If the current string is longer, insert it at that index
+ *    Otherwise, if the beginning of the array is reached, set the string to the first value of the array
+ * Return the new array, newArr
+ */

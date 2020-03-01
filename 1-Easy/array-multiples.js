@@ -18,3 +18,12 @@ function arrayOfMultiples(num, length) {
   }
   return arr;
 }
+
+/** Pseudo Code
+ * Create a new blank array, arr
+ * Create a new number with no value assigned
+ * Iterate the number of times assigned by the length parameter
+ *  Assign parameter num multiplied by the count of iterations to newNum
+ *  Set a new value in arr to newNum
+ * Return the list of numbers, arr
+*/

@@ -22,3 +22,10 @@ function missingAngle(angle1, angle2) {
     return 'acute';
   }
 }
+
+/** Pseudo Code
+ * Create a new angle3 that takes 180 subtracted by the two inputs, angle1 and angle2
+ * If angle3 is exactly 90, return the string right
+ * If angle3 is greater than 90, return the string obtuse
+ * If angle3 is less than 90, return the string acute
+ */
